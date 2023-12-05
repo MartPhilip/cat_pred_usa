@@ -1,0 +1,41 @@
+Package: predcatprey
+Type: Package
+Title: The Title of the Project
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Martin",
+           family  = "Philippe-Lesaffre",
+           role    = c("aut", "cre", "cph"),
+           email   = "martin.philippe@universite-paris-saclay.fr",
+           comment = c(ORCID = "0000-0002-1985-8758")))
+Description: A paragraph providing a full description of the project (on 
+    several lines...)
+URL: https://github.com/MartPhilip/predcatprey
+BugReports: https://github.com/MartPhilip/predcatprey/issues
+License: {{license}}
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    ggplot2,
+    patchwork
+Imports: 
+    caret,
+    dplyr,
+    ggrepel,
+    here,
+    pbmcapply,
+    PCAmixdata,
+    plyr,
+    purrr,
+    ranger,
+    raster,
+    rcompanion,
+    readxl,
+    rnaturalearth,
+    sf,
+    stats,
+    stringr,
+    tidyr,
+    utils,
+    viridis
